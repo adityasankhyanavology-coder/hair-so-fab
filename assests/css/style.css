@@ -3330,7 +3330,7 @@ section.review-banner {
     gap: 7px;
 }
 
-.felicia-name h4 {
+.felicia-name h2 {
     margin: 0;
     font-size: 15px;
     font-weight: 700;
@@ -4055,7 +4055,7 @@ section.bundel {
     height: 100% !important;
 }
 
-section.based .row {
+.based .row {
     display: flex;
     align-items: center;
     gap: 45px;
