@@ -3719,7 +3719,7 @@ section.bundel {
     margin-bottom: 25px;
 }
 
-.bundel-heading h2 {
+.bundel-heading h1 {
     font-size: 48px;
     font-weight: 500;
 }
@@ -4147,7 +4147,7 @@ section.based .row {
     gap: 18px;
 }
 
-.love-name h4 {
+.love-name h2 {
     font-size: 14px;
     font-weight: 700;
     color: #252525;
