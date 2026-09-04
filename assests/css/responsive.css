@@ -79,10 +79,7 @@
         right: 10%;
     }
 
-    .fotter-wrapper {
-        grid-template-columns: 180px 160px 175px 1fr;
-        column-gap: 30px;
-    }
+
 
     .discover-wrapper {
         max-width: 1080px;
@@ -354,6 +351,57 @@
 
 
 
+    .bundel-wrapper {
+        gap: 45px;
+    }
+
+    .bundel-heading h2 {
+        font-size: 44px;
+    }
+
+    .bundel-heading p {
+        font-size: 32px;
+    }
+
+    .number-cards {
+        gap: 10px;
+    }
+
+    .length-last-wrapper {
+        gap: 20px;
+    }
+
+    .bundel-small-img .slick-next {
+        top: 410px;
+        transform: rotate(180deg);
+        left: 20px;
+    }
+
+
+    section.based .row {
+        gap: 30px;
+    }
+
+    .based-wrapper {
+        max-width: 560px;
+    }
+
+    .girl-img-wrapper {
+        max-width: 560px;
+    }
+
+    .po-po-po {
+        gap: 25px;
+    }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -556,10 +604,7 @@
 
     /* Footer */
 
-    .fotter-wrapper {
-        grid-template-columns: 175px 150px 170px 1fr;
-        column-gap: 25px;
-    }
+
 
     .footer-ambassador form {
         width: 100%;
@@ -793,6 +838,61 @@
         font-size: 15px;
         line-height: 23px;
     }
+
+
+
+
+    section.bundel {
+        padding-top: 120px;
+    }
+
+    .bundel-wrapper {
+        gap: 35px;
+    }
+
+    .bundel-image-wrapper {
+        grid-template-columns: 85px minmax(0, 1fr);
+    }
+
+    .bundel-small-img,
+    .bundel-small-img img {
+        width: 85px;
+    }
+
+    .bundel-small-img img {
+        height: 85px;
+    }
+
+    .bundel-heading h2 {
+        font-size: 40px;
+    }
+
+    .bundel-heading p {
+        font-size: 30px;
+    }
+
+    .number {
+        height: 36px;
+    }
+
+    .bundel-small-img .slick-next {
+        top: 360px;
+        transform: rotate(180deg);
+        left: 20px;
+    }
+
+
+    .fotter-wrapper {
+
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
+
+
+
+
+
 
 
 
@@ -1077,7 +1177,7 @@
 
     .fotter-wrapper {
         min-height: auto;
-        grid-template-columns: 170px 145px 165px 1fr;
+
         column-gap: 25px;
         padding: 45px 0 35px;
     }
@@ -1524,7 +1624,7 @@
     }
 
 
-      section.ariticles {
+    section.ariticles {
         padding: 80px 0;
     }
 
@@ -1561,6 +1661,140 @@
         font-size: 15px;
         line-height: 1.55;
     }
+
+
+
+
+
+    section.bundel {
+        padding-top: 100px;
+    }
+
+    .bundel-wrapper {
+        gap: 30px;
+    }
+
+    .bundel-image-wrapper {
+        grid-template-columns: 75px minmax(0, 1fr);
+    }
+
+    .bundel-small-img,
+    .bundel-small-img img {
+        width: 75px;
+    }
+
+    .bundel-small-img img {
+        height: 75px;
+    }
+
+    .bundel-heading h2 {
+        font-size: 36px;
+    }
+
+    .bundel-heading p {
+        font-size: 28px;
+    }
+
+    .bundel-tearms {
+        gap: 10px 25px;
+    }
+
+    .number-cards {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
+    .length-last-wrapper {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+
+    .bundel-small-img .slick-prev {
+        top: -60px;
+        transform: rotate(0deg);
+        left: 10px;
+    }
+
+    .bundel-small-img .slick-next {
+        top: 310px;
+        transform: rotate(180deg);
+        left: 10px;
+    }
+
+
+
+
+
+
+
+    .based {
+        padding: 70px 0;
+    }
+
+    section.based .row {
+        gap: 25px;
+    }
+
+    .based-wrapper {
+        padding: 22px;
+    }
+
+    .girl-img-wrapper {
+        padding: 25px 18px;
+    }
+
+    .po-po-po {
+        gap: 20px;
+    }
+
+    .based-sub-titel p {
+        font-size: 42px;
+    }
+
+    .based-sub-titel span {
+        font-size: 14px;
+    }
+
+    .based-cards {
+        gap: 10px;
+    }
+
+    .based-cards p,
+    .based-cards span {
+        font-size: 14px;
+    }
+
+
+    .love-gallery {
+        padding-right: 0;
+    }
+
+    .love-rating {
+        padding-right: 0;
+    }
+
+    .love-bottom {
+        padding-right: 0;
+    }
+
+    .love-content {
+        gap: 25px;
+    }
+
+    .love-gallery-img {
+        width: 85px;
+        height: 85px;
+    }
+
+
+    section.weard {
+        padding: 90px 0 20px;
+    }
+
+
+
+
+
+
 
 
 
@@ -2208,7 +2442,7 @@
 
 
 
-      section.ariticles {
+    section.ariticles {
         padding: 90px 0;
     }
 
@@ -2234,7 +2468,7 @@
         padding: 18px;
     }
 
-    .ariticles-sub-titel > span {
+    .ariticles-sub-titel>span {
         font-size: 14px;
     }
 
@@ -2251,6 +2485,142 @@
         font-size: 14px;
         line-height: 1.55;
     }
+
+
+
+
+    section.bundel {
+        padding-top: 90px;
+    }
+
+    .bundel-wrapper {
+        gap: 25px;
+    }
+
+    .bundel-image-wrapper {
+        grid-template-columns: 65px minmax(0, 1fr);
+        gap: 10px;
+    }
+
+    .bundel-small-img,
+    .bundel-small-img img {
+        width: 65px;
+    }
+
+    .bundel-small-img img {
+        height: 65px;
+    }
+
+    .bundel-heading h2 {
+        font-size: 32px;
+    }
+
+    .bundel-heading p {
+        font-size: 26px;
+    }
+
+    .bundel-stars {
+        margin: 18px 0;
+    }
+
+    .bundel-tearms span {
+        font-size: 14px;
+    }
+
+    .number-cards {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .length-last-wrapper {
+        gap: 18px;
+    }
+
+    .bundel-small-img .slick-next {
+        top: 230px;
+        transform: rotate(180deg);
+        left: 5px;
+    }
+
+
+
+
+    .based {
+        padding: 60px 0;
+    }
+
+    section.based .row {
+        gap: 20px;
+    }
+
+    .based-wrapper,
+    .girl-img-wrapper {
+        max-width: calc(50% - 10px);
+    }
+
+    .based-wrapper {
+        padding: 20px;
+    }
+
+    .girl-img-wrapper {
+        padding: 20px 15px;
+    }
+
+    .po-po-po {
+        gap: 15px;
+    }
+
+    .rating-titel-img {
+        gap: 3px;
+    }
+
+    .rating-titel-img img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .based-sub-titel {
+        margin-bottom: 20px;
+    }
+
+    .based-sub-titel p {
+        font-size: 38px;
+    }
+
+    .based-sub-titel span {
+        font-size: 13px;
+    }
+
+    .based-cards {
+        gap: 7px;
+        margin-bottom: 10px;
+    }
+
+    .based-cards p,
+    .based-cards span {
+        font-size: 13px;
+    }
+
+    .fade-star-cards {
+        gap: 3px;
+        margin-bottom: 20px;
+    }
+
+    .fade-star-cards>img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .fade-star-cards p {
+        font-size: 12px;
+    }
+
+    .believes-img img {
+        width: 100%;
+        max-width: 450px;
+    }
+
+
+
 
 
 
@@ -3284,7 +3654,7 @@
 
 
 
-    
+
     section.ariticles {
         padding: 80px 0;
     }
@@ -3315,7 +3685,191 @@
     }
 
 
-    
+
+    section.bundel {
+        padding: 75px 0 45px;
+    }
+
+    .bundel-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .bundel-image-wrapper,
+    .bundel-img-titel {
+        width: 100%;
+    }
+
+    .bundel-image-wrapper {
+        grid-template-columns: 90px minmax(0, 1fr);
+        max-width: 850px;
+        margin: 0 auto;
+    }
+
+    .bundel-small-img,
+    .bundel-small-img img {
+        width: 90px;
+    }
+
+    .bundel-small-img img {
+        height: 90px;
+    }
+
+    .bundel-big-img {
+        width: 100%;
+    }
+
+    .bundel-img-titel {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+
+    .bundel-heading h2 {
+        font-size: 40px;
+    }
+
+    .bundel-heading p {
+        font-size: 30px;
+    }
+
+    .bundel-tearms {
+        flex-direction: row;
+    }
+
+    .number-cards {
+        max-width: 100%;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+
+    .length-last-wrapper {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .bundel-small-img .slick-next {
+        top: 340px;
+        transform: rotate(180deg);
+        left: 10px;
+    }
+
+    .bundel-image-btn {
+
+        justify-content: center;
+
+    }
+
+
+    section.based .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .based-wrapper,
+    .girl-img-wrapper {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .based-wrapper {
+        padding: 25px;
+    }
+
+    .girl-img-wrapper {
+        padding: 25px 20px;
+    }
+
+    .po-po-po {
+        gap: 40px;
+    }
+
+    .based-sub-titel p {
+        font-size: 44px;
+    }
+
+    .based-sub-titel span {
+        font-size: 15px;
+    }
+
+    .based-cards p,
+    .based-cards span {
+        font-size: 15px;
+    }
+
+    .fade-star-cards>img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .fade-star-cards p {
+        font-size: 14px;
+    }
+
+    .based-btn a {
+        width: 100%;
+        max-width: 100%;
+
+    }
+
+    .girl-img-btn a {
+        width: 100%;
+        max-width: 100%;
+
+    }
+
+
+
+
+    .love-wrapper {
+        padding: 20px;
+    }
+
+    .love-content {
+        grid-template-columns: 1fr;
+        margin-top: 25px;
+    }
+
+    .love-review-text {
+        max-width: 100%;
+    }
+
+    .love-gallery {
+        justify-content: flex-start;
+    }
+
+    .love-bottom {
+        justify-content: flex-end;
+    }
+
+
+    .believes-img img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+
+
+
+    .believes-sub-titel p {
+        font-size: 14px;
+        font-weight: 400;
+        max-width: 457px;
+        letter-spacing: 10%;
+    }
+
+    .believes-wrapper {
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3889,7 +4443,6 @@
     }
 
     .footer-column ul {
-        display: none;
         padding-top: 17px;
     }
 
@@ -4595,7 +5148,7 @@
 
 
 
-    
+
     section.ariticles {
         padding: 70px 0;
     }
@@ -4641,6 +5194,334 @@
     .ariticles-read-more {
         margin-top: 10px;
     }
+
+
+    .banner .slick-next {
+        right: 43%;
+        top: 85%;
+    }
+
+    .banner .slick-prev {
+        left: 45%;
+        top: 85%;
+    }
+
+
+
+
+    section.bundel {
+        padding: 60px 0 40px;
+    }
+
+    .bundel-wrapper {
+        gap: 40px;
+    }
+
+    /*
+       THUMBNAILS BECOME HORIZONTAL
+    */
+
+    .bundel-image-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+
+    .bundel-big-img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .bundel-small-img {
+        width: 100%;
+        display: block;
+    }
+
+    .bundel-small-img img {
+        width: 80px;
+        height: 80px;
+        margin: 0;
+    }
+
+    .bundel-small-img .slick-list {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .bundel-small-img .slick-track {
+        display: flex;
+        align-items: center;
+    }
+
+    .bundel-small-img .slick-slide {
+        margin-right: 7px;
+    }
+
+    .bundel-small-img .slick-prev {
+        top: 50%;
+        left: -10px;
+        transform: translateY(-50%);
+    }
+
+    .bundel-small-img .slick-next {
+        top: 50%;
+        right: -10px;
+        left: auto;
+        bottom: auto;
+        transform: translateY(-50%) rotate(180deg);
+    }
+
+    .bundel-image-btn {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .bundel-heading h2 {
+        font-size: 34px;
+    }
+
+    .bundel-heading p {
+        font-size: 28px;
+    }
+
+    .number-cards {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .length-last-wrapper {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 25px;
+    }
+
+
+
+    .bundel-small-img.slick-initialized.slick-slider.slick-vertical {
+        display: none;
+    }
+
+
+    .bundel-heading {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .length-btn a {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
+
+    .based {
+        padding: 50px 0;
+    }
+
+    section.based .row {
+        gap: 25px;
+    }
+
+    .based-wrapper,
+    .girl-img-wrapper {
+        max-width: 100%;
+    }
+
+    .based-wrapper {
+        padding: 20px;
+        border-radius: 25px;
+    }
+
+    .girl-img-wrapper {
+        padding: 20px 15px;
+        border-radius: 25px;
+    }
+
+    .po-po-po {
+        gap: 25px;
+    }
+
+    .based-sub-titel p {
+        font-size: 38px;
+    }
+
+    .based-sub-titel span {
+        font-size: 14px;
+        white-space: normal;
+    }
+
+    .based-cards {
+        gap: 8px;
+    }
+
+    .based-cards p,
+    .based-cards span {
+        font-size: 14px;
+    }
+
+    .fade-star-cards {
+        margin-bottom: 18px;
+    }
+
+    .fade-star-cards>img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .girl-img {
+        gap: 8px;
+    }
+
+    .girl-img img {
+        width: calc(25% - 6px);
+    }
+
+    .based-btn a,
+    .girl-img-btn a {
+        max-width: 100%;
+    }
+
+
+
+
+    .love-top {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .love-rating {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .love-content {
+        margin-top: 20px;
+    }
+
+    .love-gallery {
+        flex-wrap: wrap;
+    }
+
+    .love-gallery-img {
+        width: calc(50% - 6px);
+        height: 180px;
+    }
+
+    .love-bottom {
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .weard-wrapper h2 {
+        font-size: 35px;
+        font-weight: 500;
+        letter-spacing: 5%;
+        margin-bottom: 0;
+    }
+
+    .weard-wrapper p {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 5%;
+        margin-top: 5px;
+    }
+
+    section.weard {
+        padding: 80px 0 20px;
+    }
+
+    .believes-img img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .believes-wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .believes-img {
+        margin: 0 auto;
+    }
+
+    .believes-titel {
+        margin: 0 auto;
+    }
+
+    .believes-sub-titel {
+        margin-top: 0;
+    }
+
+    .believes-logo img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .believes-sub-titel p {
+        font-size: 16px;
+        font-weight: 400;
+        max-width: 457px;
+        letter-spacing: 10%;
+    }
+
+
+    .quantity-wrapper {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .quantity-wrapper-img {
+        margin: 0 auto;
+    }
+
+    .quantity-wrapper-titel {
+        margin: 0 auto;
+    }
+
+
+    .dolls-wrapper p {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 5%;
+    }
+
+    .dolls-wrapper span {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 5%;
+    }
+
+    .dolls-wrapper h2 {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 5%;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4847,11 +5728,11 @@
     }
 
     .banner .slick-prev {
-        left: 6px;
+        left: 46%;
     }
 
     .banner .slick-next {
-        right: 6px;
+        right: 40%;
     }
 
     .banner .slick-prev::before,
@@ -5479,7 +6360,7 @@
 
 
 
-      section.ariticles {
+    section.ariticles {
         padding: 80px 0;
     }
 
@@ -5503,7 +6384,7 @@
         padding: 20px;
     }
 
-    .ariticles-sub-titel > span {
+    .ariticles-sub-titel>span {
         font-size: 13px;
     }
 
@@ -5525,6 +6406,221 @@
         font-size: 10px;
         padding-top: 15px;
     }
+
+
+
+
+
+    section.bundel {
+        padding: 50px 0 35px;
+    }
+
+    .bundel-wrapper {
+        gap: 35px;
+    }
+
+    .bundel-small-img img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .bundel-heading h2 {
+        font-size: 30px;
+    }
+
+    .bundel-heading p {
+        font-size: 25px;
+    }
+
+    .bundel-stars {
+        margin: 15px 0;
+    }
+
+    .bundel-stars img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .bundel-stars span {
+        font-size: 14px;
+    }
+
+    .bundel-tearms {
+        flex-direction: column;
+        gap: 7px;
+        align-items: center;
+    }
+
+    .number-cards {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .length-last-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .based {
+        padding: 40px 0;
+    }
+
+    .based-wrapper {
+        padding: 18px;
+    }
+
+    .po-po-po {
+        display: block;
+    }
+
+    .based-titel {
+        margin-bottom: 25px;
+    }
+
+    .rating-titel-img {
+        justify-content: center;
+    }
+
+    .based-sub-titel {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .based-sub-titel p {
+        font-size: 36px;
+    }
+
+    .based-heading {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .based-cards {
+        display: block;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .based-cards p {
+        margin-bottom: 4px;
+    }
+
+    .fade-stars {
+        width: 100%;
+    }
+
+    .fade-star-cards {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .fade-star-cards>img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .girl-img-wrapper {
+        padding: 18px 12px;
+    }
+
+    .girl-img {
+        gap: 6px;
+    }
+
+    .girl-img img {
+        width: calc(25% - 5px);
+    }
+
+    .based-btn a,
+    .girl-img-btn a {
+        font-size: 14px;
+        padding: 15px 10px;
+    }
+
+
+
+    .love-wrapper {
+        padding: 16px;
+        border-radius: 10px;
+    }
+
+    .love-user {
+        align-items: flex-start;
+    }
+
+    .love-profile {
+        width: 50px;
+        height: 50px;
+    }
+
+    .love-name {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+    }
+
+    .love-name h4 {
+        font-size: 15px;
+    }
+
+    .love-details {
+        flex-wrap: wrap;
+        gap: 6px 0;
+    }
+
+    .love-details span {
+        font-size: 11px;
+        padding: 0 8px;
+    }
+
+    .love-details span:first-child {
+        font-size: 13px;
+    }
+
+    .love-review-text p {
+        font-size: 14px;
+    }
+
+    .love-gallery-img {
+        height: 140px;
+    }
+
+    .love-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+
+    .weard-wrapper p {
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 5%;
+        margin-top: 5px;
+    }
+
+
+    section.weard {
+        padding: 70px 0 20px;
+    }
+
+    .believes-sub-titel p {
+        font-size: 15px;
+        font-weight: 400;
+        max-width: 457px;
+        letter-spacing: 10%;
+    }
+
+    .believes-logo img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+
 
 
 
@@ -6454,7 +7550,7 @@
     }
 
 
-        .review-input-wrapper,
+    .review-input-wrapper,
     .review-drop-down,
     .review-drop-down select {
         height: 50px !important;
@@ -6482,7 +7578,7 @@
 
 
 
-    
+
     section.ariticles {
         padding: 70px 0;
     }
@@ -6507,7 +7603,7 @@
         padding: 17px;
     }
 
-    .ariticles-sub-titel > span {
+    .ariticles-sub-titel>span {
         margin-bottom: 6px;
         font-size: 12px;
     }
@@ -6534,7 +7630,232 @@
     }
 
 
-    
+
+
+    section.bundel {
+        padding: 40px 0 25px;
+    }
+
+    .bundel-wrapper {
+        gap: 30px;
+    }
+
+    .bundel-small-img img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .bundel-image-btn {
+        margin-top: 15px;
+        gap: 15px;
+        font-size: 14px;
+    }
+
+    .bundel-heading {
+        padding-bottom: 22px;
+    }
+
+    .bundel-heading h2 {
+        font-size: 25px;
+    }
+
+    .bundel-heading p {
+        font-size: 22px;
+    }
+
+    .bundel-stars {
+        gap: 3px;
+    }
+
+    .bundel-stars img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .bundel-stars span {
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    .bundel-tearms span {
+        font-size: 13px;
+    }
+
+    .bundel-check-box span {
+        font-size: 14px;
+    }
+
+    .length>span {
+        font-size: 16px;
+    }
+
+    .number-cards {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px;
+    }
+
+    .number {
+        height: 36px;
+    }
+
+    .number p {
+        font-size: 14px;
+    }
+
+    .length-btn {
+        margin-top: 30px;
+    }
+
+    .length-btn>a {
+        min-height: 52px;
+        padding: 14px 15px;
+        margin-bottom: 20px;
+    }
+
+    .accordion-title {
+        padding: 15px 0;
+    }
+
+    .accordion-title p {
+        font-size: 18px;
+    }
+
+    .accordion-content p {
+        font-size: 13px;
+    }
+
+    .length-last-wrapper {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .length-last-sub-titel p {
+        font-size: 15px;
+    }
+
+    .length-last-sub-titel span {
+        font-size: 13px;
+    }
+
+    .bundel-small-img .slick-prev,
+    .bundel-small-img .slick-next {
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    .based {
+        padding: 35px 0;
+    }
+
+    .based-wrapper {
+        padding: 16px;
+        border-radius: 20px;
+    }
+
+    .girl-img-wrapper {
+        padding: 15px 10px;
+        border-radius: 20px;
+    }
+
+    .rating-titel-img {
+        gap: 3px;
+    }
+
+    .rating-titel-img img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .based-sub-titel p {
+        font-size: 32px;
+    }
+
+    .based-sub-titel span {
+        font-size: 13px;
+    }
+
+    .based-heading {
+        gap: 12px;
+    }
+
+    .based-cards p,
+    .based-cards span {
+        font-size: 12px;
+    }
+
+    .fade-star-cards {
+        gap: 3px;
+    }
+
+    .fade-star-cards>img {
+        width: 13px;
+        height: 13px;
+    }
+
+    .fade-star-cards p {
+        font-size: 11px;
+        margin-left: 3px;
+    }
+
+    .girl-img {
+        gap: 5px;
+    }
+
+    .girl-img img {
+        width: calc(25% - 4px);
+    }
+
+    .girl-img-btn a,
+    .based-btn a {
+        font-size: 13px;
+        padding: 14px 8px;
+        margin-top: 15px;
+    }
+
+    .weard-wrapper h2 {
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 5%;
+        margin-bottom: 0;
+    }
+
+    section.weard {
+        padding: 70px 0 20px;
+    }
+
+
+    .believes-logo img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+
+
+    .quantity-wrapper-titel h2 {
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 5%;
+        margin-bottom: 5px;
+        max-width: 436px;
+    }
+
+    .quantity-wrapper-titel p {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 10%;
+        max-width: 457px;
+    }
+
+
+
+
+
+
+
+
 
 
 
@@ -6726,11 +8047,11 @@
     }
 
     .banner .slick-prev {
-        left: 4px;
+        left: 40%;
     }
 
     .banner .slick-next {
-        right: 4px;
+        right: 40%;
     }
 
     .banner .slick-prev::before,
@@ -7368,7 +8689,7 @@
 
 
 
-    
+
     section.ariticles {
         padding: 60px 0;
     }
@@ -7389,7 +8710,7 @@
         padding: 15px;
     }
 
-    .ariticles-sub-titel > span {
+    .ariticles-sub-titel>span {
         font-size: 11px;
     }
 
@@ -7409,6 +8730,175 @@
     .ariticles-read-more {
         font-size: 9px;
     }
+
+
+
+
+
+
+
+    section.bundel {
+        padding: 35px 0 20px;
+    }
+
+    .bundel-small-img img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .bundel-heading h2 {
+        font-size: 22px;
+    }
+
+    .bundel-heading p {
+        font-size: 20px;
+    }
+
+    .bundel-image-btn {
+        font-size: 13px;
+    }
+
+    .number-cards {
+        gap: 7px;
+    }
+
+    .number {
+        height: 34px;
+    }
+
+    .number p {
+        font-size: 13px;
+    }
+
+    .accordion-title p {
+        font-size: 17px;
+    }
+
+
+    .based {
+        padding: 30px 0;
+    }
+
+    .based-wrapper {
+        padding: 14px;
+    }
+
+    .girl-img-wrapper {
+        padding: 12px 8px;
+    }
+
+    .based-sub-titel p {
+        font-size: 29px;
+    }
+
+    .based-sub-titel span {
+        font-size: 12px;
+    }
+
+    .based-heading {
+        gap: 8px;
+    }
+
+    .based-cards p,
+    .based-cards span {
+        font-size: 11px;
+    }
+
+    .fade-star-cards {
+        gap: 2px;
+        margin-bottom: 13px;
+    }
+
+    .fade-star-cards>img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .fade-star-cards p {
+        font-size: 10px;
+    }
+
+    .girl-img {
+        gap: 4px;
+    }
+
+    .girl-img img {
+        width: calc(25% - 3px);
+    }
+
+
+
+
+    .love-wrapper {
+        padding: 12px;
+    }
+
+    .love-user {
+        gap: 10px;
+    }
+
+    .love-profile {
+        width: 45px;
+        height: 45px;
+    }
+
+    .love-details span {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+
+    .love-details span:first-child {
+        font-size: 12px;
+    }
+
+    .love-gallery {
+        gap: 8px;
+    }
+
+    .love-gallery-img {
+        width: calc(50% - 4px);
+        height: 125px;
+        border-radius: 8px;
+    }
+
+    .love-stars i {
+        font-size: 14px;
+    }
+
+
+    .weard-wrapper h2 {
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 5%;
+        margin-bottom: 0;
+    }
+
+    .weard-wrapper p {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+
+
+    .believes-sub-titel p {
+        font-size: 13px;
+        font-weight: 400;
+        max-width: 457px;
+        letter-spacing: 10%;
+    }
+
+
+    .believes-logo img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+
+
+
+
+
+
+
 
 
 
