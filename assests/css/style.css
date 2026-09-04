@@ -2761,7 +2761,7 @@ section.weekly {
     padding-top: 1px;
 }
 
-.lace-heading span {
+.lace-heading h2 {
     display: block;
     margin: 0;
     color: #050505;
@@ -2822,7 +2822,7 @@ section.weekly {
     padding-top: 1px;
 }
 
-.lace-care-text h4 {
+.lace-care-text h3 {
     margin: 0 0 3px;
     color: #080808;
     font-size: 16px;
@@ -2991,7 +2991,7 @@ section.following {
     gap: 15px;
 }
 
-.following-titel p {
+.following-titel h2 {
     font-size: 18px;
     line-height: 25px;
     font-weight: 500;
@@ -3065,7 +3065,7 @@ section.never {
     padding: 32px 0 32px;
 }
 
-.never-titel h4 {
+.never-titel h2 {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -3082,7 +3082,7 @@ section.never {
     margin-bottom: 40px;
 }
 
-.never-sub-titel h4 {
+.never-sub-titel h3 {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 10px;
